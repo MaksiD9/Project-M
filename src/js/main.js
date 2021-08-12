@@ -11,6 +11,7 @@ import pictureSize from './modules/pictureSize';
 import accordionJs from './modules/accordionJs';
 import burger from './modules/burger';
 import scrolling from './modules/scrolling';
+import drop from './modules/drop';
 // import accordion from './modules/accordion';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -30,5 +31,6 @@ window.addEventListener('DOMContentLoaded', () => {
     accordionJs('.accordion-heading');
     burger('.burger-menu', '.burger');
     scrolling ('.pageup');
+    drop();
     // accordion('.accordion-heading', '.accordion-block');
 });
