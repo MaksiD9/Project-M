@@ -9,6 +9,7 @@ import calc from './modules/calc';
 import filter from './modules/filter';
 import pictureSize from './modules/pictureSize';
 import accordionJs from './modules/accordionJs';
+import burger from './modules/burger';
 // import accordion from './modules/accordion';
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -26,5 +27,6 @@ window.addEventListener('DOMContentLoaded', () => {
     filter();
     pictureSize('.sizes-block');
     accordionJs('.accordion-heading');
+    burger('.burger-menu', '.burger');
     // accordion('.accordion-heading', '.accordion-block');
 });
